@@ -26,8 +26,6 @@ public class Main {
                 System.out.print(priceElement.getText()+"\t 萬 \n");
 
 
-
-
             }
 
         }
