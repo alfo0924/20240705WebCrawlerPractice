@@ -21,15 +21,9 @@ public class Main {
             {
                 WebElement nameElement =element.findElement(By.cssSelector("span.title"));
                 WebElement priceElement=element.findElement(By.cssSelector("span.price"));
-//                WebElement modelElement=element.findElement(By.cssSelector(".model-sub div.model-title "));
-//                WebElement mdpElement  =element.findElement(By.cssSelector("span"));
-//                WebElement vrtyElement =element.findElement(By.cssSelector("span ul"));
 
                 System.out.print(nameElement.getText()+"\t");
                 System.out.print(priceElement.getText()+"\t 萬 \n");
-//                System.out.print(modelElement.getText()+"\t");
-//                System.out.print(mdpElement.getText()+"\t");
-//                System.out.print(vrtyElement.getText()+"\t");
 
 
 
